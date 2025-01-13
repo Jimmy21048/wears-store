@@ -10,7 +10,7 @@
     --main4: #ffaa00;
     --main5: #ffea00;
     --bg1: #FFFFFF;
-    --bg2: #F5F5F5;
+    --bg2: #F0F8FF;
 }
 /* body {
     height: 100vh;
@@ -59,6 +59,8 @@ span {
         gap: 30px;
         width: 100vw;
         overflow-x: scroll;
+        position: sticky;
+        top: 0;
     }
     .tab {
         border: 1px solid;
@@ -70,7 +72,15 @@ span {
         border-radius: 15px;
         background-color: var(--main2);
         color: var(--bg1);
-
+        text-decoration: none;
+    }
+    .present {
+        height: 4vh;
+        border: 1px solid;
+    }
+    .type {
+        height: 50vh;
+        border: 1px solid;
     }
 
     ::-webkit-scrollbar {
@@ -79,6 +89,8 @@ span {
     html, body {
         scrollbar-width: none; /* For Firefox */
         -ms-overflow-style: none; /* For Internet Explorer and Edge */
+        scroll-behavior: smooth;
+        overscroll-behavior: contain;
     }
 
 }

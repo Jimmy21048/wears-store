@@ -9,6 +9,12 @@ const Main = () => {
                 </div>
             </header>
             <Tabs />
+            <div className="present" ></div>
+            <div id="jackets" className="type" ></div>
+            <div id="trousers" className="type" ></div>
+            <div id="skirts" className="type" ></div>
+            <div id="shorts" className="type" ></div>
+            <div id="shirts" className="type" ></div>
         </div>
     )
 }
