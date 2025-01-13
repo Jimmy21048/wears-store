@@ -1,4 +1,4 @@
-
+import Tabs from "./Tabs";
 const Main = () => {
     return (
         <div className="main">
@@ -8,6 +8,7 @@ const Main = () => {
                     <p className="itl motto">Quality never goes out of style</p>
                 </div>
             </header>
+            <Tabs />
         </div>
     )
 }
