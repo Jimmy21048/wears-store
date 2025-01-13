@@ -35,6 +35,9 @@ span {
 @media screen and (max-width:1000px) {
     .main {
         visibility: visible;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
     }
     header {
         height: 10vh;
@@ -61,6 +64,8 @@ span {
         overflow-x: scroll;
         position: sticky;
         top: 0;
+        background-color: var(--bg1);
+        z-index: 999;
     }
     .tab {
         border: 1px solid;
@@ -74,13 +79,22 @@ span {
         color: var(--bg1);
         text-decoration: none;
     }
-    .present {
-        height: 4vh;
-        border: 1px solid;
+    .hero {
+        height: 60vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .hero img {
+        height: 55vh;
+        width: 500px;
+        max-width: 95vw;
+        object-fit: cover;
     }
     .type {
         height: 50vh;
-        border: 1px solid;
     }
 
     ::-webkit-scrollbar {

@@ -9,7 +9,9 @@ const Main = () => {
                 </div>
             </header>
             <Tabs />
-            <div className="present" ></div>
+            <div className="hero" >
+                <img src="./images/test1.png" alt="display photo" />
+            </div>
             <div id="jackets" className="type" ></div>
             <div id="trousers" className="type" ></div>
             <div id="skirts" className="type" ></div>
