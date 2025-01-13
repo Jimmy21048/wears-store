@@ -10,7 +10,7 @@
     --main4: #ffaa00;
     --main5: #ffea00;
     --bg1: #FFFFFF;
-    --bg2: #F8F4FF;
+    --bg2: #F5F5F5;
 }
 /* body {
     height: 100vh;
@@ -53,8 +53,10 @@ span {
         height: 8vh;
         display: flex;
         align-items: center;
-        padding-left: 20px;
-        gap: 40px;
+        justify-content: space-around;
+        padding-left:20px;
+        padding-right: 20px;
+        gap: 30px;
         width: 100vw;
         overflow-x: scroll;
     }
@@ -69,6 +71,14 @@ span {
         background-color: var(--main2);
         color: var(--bg1);
 
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    html, body {
+        scrollbar-width: none; /* For Firefox */
+        -ms-overflow-style: none; /* For Internet Explorer and Edge */
     }
 
 }
