@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --main: #ff4800;
+    --main2: #ff6d00;
+    --main3: #ff9100;
+    --main4: #ffaa00;
+    --main5: #ffea00;
+    --bg1: #FFFFFF;
+    --bg2: #F8F4FF;
+}
+.main {
+    visibility: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+.itl {
+    font-style: italic;
+}
+span {
+    display: flex;
+    gap: 5px;
+    align-items: flex-end;
+}
+
+@media screen and (max-width:1000px) {
+    .main {
+        visibility: visible;
+    }
+    header {
+        height: 10vh;
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .motto {
+        font-size: 0.8rem;
+    }
+    .title {
+        color: var(--main)
+    }
+
+}
