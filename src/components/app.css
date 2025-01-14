@@ -133,7 +133,7 @@ span {
         animation-duration: 1.5s;
     }
     .active {
-        background-color: #717171;
+        background-color: var(--main2);
     } 
     @keyframes fade {
         from {opacity: .4} 
