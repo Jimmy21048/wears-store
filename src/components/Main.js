@@ -105,6 +105,40 @@ const Main = () => {
             </div>
             <div id="trousers" className="type" >
                 <h3>Trousers</h3>
+                <div className="items-div">
+                    <div className="category-div">
+                        <LoadingImage src={'./images/ladyjeansLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                        {
+                            items.jackets.map((jacket) => {
+                                return (
+                                    <LoadingImage src={jacket.url} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                                )
+                            })
+                        }
+                    </div>
+
+                    <div className="category-div">
+                        <LoadingImage src={'./images/menjeansLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                        {
+                            items.jackets.map((jacket) => {
+                                return (
+                                    <LoadingImage src={jacket.url} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                                )
+                            })
+                        }
+                    </div>
+
+                    <div className="category-div">
+                        <LoadingImage src={'./images/momjeansLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                        {
+                            items.jackets.map((jacket) => {
+                                return (
+                                    <LoadingImage src={jacket.url} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                                )
+                            })
+                        }
+                    </div>
+                </div>
             </div>
             <div id="skirts" className="type" >
                 <h3>Skirts</h3>
