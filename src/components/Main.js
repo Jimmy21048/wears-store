@@ -1,4 +1,5 @@
 import Tabs from "./Tabs";
+
 const Main = () => {
     return (
         <div className="main">
@@ -10,7 +11,7 @@ const Main = () => {
             </header>
             <Tabs />
             <div className="hero" >
-                <img src="./images/test1.png" alt="display photo" />
+                <img src="./images/test1.png" alt="display item" />
             </div>
             <div id="jackets" className="type" ></div>
             <div id="trousers" className="type" ></div>
