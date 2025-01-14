@@ -38,6 +38,7 @@ span {
     }
     header {
         height: 10vh;
+        width: 100vw;
         padding-left: 10px;
         display: flex;
         align-items: center;
@@ -140,6 +141,51 @@ span {
     }
     .title2 {
         color: var(--main2);
+    }
+    .item-page {
+        height: 100vh;
+        width: 100vw;
+        overflow-y: auto;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .item-page .header-icon {
+        display: none;
+    }
+    .back-button {
+        display: none;
+    }
+    .item-page .back-button {
+        display: initial;
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: black;
+
+    }
+    .additives {
+        height: 40vh;
+        width: 100vw;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .added {
+        display: flex;
+        gap: 5px;
+        font-size: 1.05rem;
+        font-weight: 600;
+    }
+    .item-image {
+        width: 330px;
+        height: 50vh;
+        max-width: 95vw;
+        object-fit: cover;
+        border-radius: 10px;
     }
     /* image slider */
     .slide {
