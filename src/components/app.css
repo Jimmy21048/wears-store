@@ -94,7 +94,7 @@ span {
         justify-content: center;
         position: relative;
     }
-    .hero img {
+    .hero-img {
         height: 55vh;
         width: 350px;
         max-width: 92vw;
@@ -109,6 +109,9 @@ span {
     /* image slider */
     .slide {
         display: none;
+    }
+    .slide:first-of-type {
+        display: block;
     }
     .slide .text {
         position: absolute;
