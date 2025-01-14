@@ -36,7 +36,7 @@ const Main = () => {
             <div className="display-hero">
                 <div className="hero" >
                     <div className="slide fade">
-                        <img src="./images/test1.jpg" alt="display item" />
+                        <img loading="lazy" src="./images/test1.jpg" alt="display item" />
                         <div className="text">Text caption 1</div>
                     </div>
                     <div className="slide fade">
@@ -64,11 +64,21 @@ const Main = () => {
                     <span className="dot"></span>
                 </div>
             </div>
-            <div id="jackets" className="type" ></div>
-            <div id="trousers" className="type" ></div>
-            <div id="skirts" className="type" ></div>
-            <div id="shorts" className="type" ></div>
-            <div id="shirts" className="type" ></div>
+            <div id="jackets" className="type" >
+                <h3>Jackets</h3>
+            </div>
+            <div id="trousers" className="type" >
+                <h3>Trousers</h3>
+            </div>
+            <div id="skirts" className="type" >
+                <h3>Skirts</h3>
+            </div>
+            <div id="shorts" className="type" >
+                <h3>Shorts</h3>
+            </div>
+            <div id="shirts" className="type" >
+                <h3>Shirts</h3>
+            </div>
         </div>
     )
 }
