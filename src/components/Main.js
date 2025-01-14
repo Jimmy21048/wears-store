@@ -1,6 +1,7 @@
 // import { useRef } from "react";
 import Tabs from "./Tabs";
 import LoadingImage from "./Image";
+import { items } from "./itemArrays";
 const Main = () => {
     let slideIndex=0;
     let i;
@@ -31,6 +32,7 @@ const Main = () => {
                     <span><h2 className="itl title">MSAANI </h2><h4 className="itl motto title">Collections</h4></span>
                     <p className="itl motto">Quality never goes out of style</p>
                 </div>
+                <img className="header-icon"  />
             </header>
             <Tabs />
             <div className="display-hero">
@@ -67,7 +69,13 @@ const Main = () => {
             <div id="jackets" className="type" >
                 <h3>Jackets</h3>
                 <div className="items-div">
-                    <LoadingImage src={'./images/test2.jpeg'} alt={'jackets'} height={'200px'} width={'150px'} />
+                {
+                    items.jackets.map((jacket) => {
+                        return (
+                            <LoadingImage src={jacket.url} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                        )
+                    })
+                }
                 </div>
             </div>
             <div id="trousers" className="type" >

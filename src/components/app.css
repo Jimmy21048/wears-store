@@ -41,7 +41,14 @@ span {
         padding-left: 10px;
         display: flex;
         align-items: center;
+        justify-content: space-between;
+        padding-right: 10px;
         background-color: var(--bg2);
+    }
+    .header-icon {
+        height: 6vh;
+        width: 6vh;
+        border-radius: 50%;
     }
     .motto {
         font-size: 0.8rem;
@@ -105,6 +112,20 @@ span {
         height: 50vh;
         padding-left: 10px;
         padding-top: 8vh;
+    }
+    .items-div {
+        height: 250px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        padding-left: 10px;
+        overflow-x: scroll;
+        padding-right: 20px;
+    }
+    .item {
+        width: 150px;
+        height: 200px;
+        object-fit: cover;
     }
     /* image slider */
     .slide {
