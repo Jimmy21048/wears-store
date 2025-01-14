@@ -70,7 +70,7 @@ const Main = () => {
                 <h3>Jackets</h3>
                 <div className="items-div">
                     <div className="category-div">
-                        <LoadingImage src={'./images/varsityLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                        {/* <LoadingImage src={'./images/varsityLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/> */}
                         {
                             items.varsity.map((jacket) => {
                                 return (
@@ -81,7 +81,7 @@ const Main = () => {
                     </div>
 
                     <div className="category-div">
-                        <LoadingImage src={'./images/pufferLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                        {/* <LoadingImage src={'./images/pufferLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/> */}
                         {
                             items.puffer.map((jacket) => {
                                 return (
@@ -92,7 +92,7 @@ const Main = () => {
                     </div>
 
                     <div className="category-div">
-                        <LoadingImage src={'./images/fleeceLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                        {/* <LoadingImage src={'./images/fleeceLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/> */}
                         {
                             items.fleece.map((jacket) => {
                                 return (
@@ -107,7 +107,7 @@ const Main = () => {
                 <h3>Trousers</h3>
                 <div className="items-div">
                     <div className="category-div">
-                        <LoadingImage src={'./images/ladyjeansLogo.png'} alt={'lady jeans'} className={'item'} height={'200px'} width={'150px'}/>
+                        {/* <LoadingImage src={'./images/ladyjeansLogo.png'} alt={'lady jeans'} className={'item'} height={'200px'} width={'150px'}/> */}
                         {
                             items.ladyJeans.map((item) => {
                                 return (
@@ -118,7 +118,7 @@ const Main = () => {
                     </div>
 
                     <div className="category-div">
-                        <LoadingImage src={'./images/menjeansLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                        {/* <LoadingImage src={'./images/menjeansLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/> */}
                         {
                             items.jackets.map((jacket) => {
                                 return (
@@ -129,7 +129,7 @@ const Main = () => {
                     </div>
 
                     <div className="category-div">
-                        <LoadingImage src={'./images/momjeansLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                        {/* <LoadingImage src={'./images/momjeansLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/> */}
                         {
                             items.jackets.map((jacket) => {
                                 return (
