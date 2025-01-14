@@ -18,7 +18,6 @@ export default function Tabs() {
     const handleClick = (item) => {
         setTab({...tabControl, [item] : 'activeTab'})
     }
-    console.log(tab)
     return (
         <div className="tabs">
             <a onClick={() => handleClick('jacket')} className={tab.jacket + ' tab'} href="#jackets" >jackets</a>
