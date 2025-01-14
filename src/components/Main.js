@@ -23,39 +23,39 @@ const Main = () => {
         dots[slideIndex-1].className += " active";
         
     }
-    setInterval(showSlides, 10000);
+    setInterval(showSlides, 5000);
     
     return (
         <div className="main">
             <header>
                 <div>
-                    <span><h2 className="itl title">MSAANI </h2><h4 className="itl motto title">Collections</h4></span>
+                    <span><h2 className="itl title">M.J.N </h2><h4 className="itl motto title">Collections</h4></span>
                     <p className="itl motto">Quality never goes out of style</p>
                 </div>
-                <img className="header-icon"  />
+                <img className="header-icon" src="./images/icon.jpg"  />
             </header>
             <Tabs />
             <div className="display-hero">
                 <div className="hero" >
                     <div className="slide fade">
-                        <LoadingImage src={"./images/test1.jpg"} className={'hero-img'} alt={'display item'} height={'55vh'} width={'350px'} />
-                        <div className="text">Text caption 1</div>
+                        <LoadingImage src={"./images/display4.jpg"} className={'hero-img'} alt={'display item'} height={'55vh'} width={'350px'} />
+                        <div className="text">Quality products</div>
                     </div>
                     <div className="slide fade">
-                        <LoadingImage src={"./images/test1.png"} className={'hero-img'} alt={'display item'} height={'55vh'} width={'350px'} />
-                        <div className="text">Text caption 2</div>
+                        <LoadingImage src={"./images/display2.jpg"} className={'hero-img'} alt={'display item'} height={'55vh'} width={'350px'} />
+                        <div className="text">Affordable prices</div>
                     </div>
                     <div className="slide fade">
-                        <LoadingImage src={"./images/test3.jpeg"} className={'hero-img'} alt={'display item'} height={'55vh'} width={'350px'} />
-                        <div className="text">Text caption 3</div>
+                        <LoadingImage src={"./images/display3.jpg"} className={'hero-img'} alt={'display item'} height={'55vh'} width={'350px'} />
+                        <div className="text">Best customer experience</div>
                     </div>
                     <div className="slide fade">
-                        <LoadingImage src={"./images/test4.jpeg"} className={'hero-img'} alt={'display item'} height={'55vh'} width={'350px'} />
-                        <div className="text">Text caption 4</div>
+                        <LoadingImage src={"./images/display1.jpg"} className={'hero-img'} alt={'display item'} height={'55vh'} width={'350px'} />
+                        <div className="text">A variety of products</div>
                     </div>
                     <div className="slide fade">
-                        <LoadingImage src={"./images/test2.jpeg"} className={'hero-img'} alt={'display item'} height={'55vh'} width={'350px'} />
-                        <div className="text">Text caption 5</div>
+                        <LoadingImage src={"./images/display5.jpg"} className={'hero-img'} alt={'display item'} height={'55vh'} width={'350px'} />
+                        <div className="text">Just for you</div>
                     </div>
                 </div>
                 <div className="dots" >

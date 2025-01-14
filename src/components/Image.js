@@ -4,7 +4,7 @@ export default function LoadingImage({ src, alt, width, height, className }) {
     const [isLoaded, setIsLoaded] = useState(false);
 
     return (
-        <div style={{position: 'relative', width: width, height: height,}}>
+        <div style={{position: 'relative', width: width, height: height, minWidth: width}}>
             {!isLoaded && (
                 <div style={{
                     position: "absolute",

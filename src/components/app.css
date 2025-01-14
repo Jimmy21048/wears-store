@@ -51,7 +51,7 @@ span {
         border-radius: 50%;
     }
     .motto {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .title {
         color: var(--main)
@@ -97,6 +97,7 @@ span {
         height: 57vh;
         width: 100vw;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         position: relative;
