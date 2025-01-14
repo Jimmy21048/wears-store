@@ -11,12 +11,9 @@
     --main5: #ffea00;
     --bg1: #FFFFFF;
     --bg2: #F0F8FF;
+    --border1: #808080;
+    --border2: #e5e4e273;
 }
-/* body {
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-} */
 .main {
     visibility: hidden;
     height: 100vh;
@@ -68,16 +65,16 @@ span {
         z-index: 999;
     }
     .tab {
-        border: 1px solid;
         min-width: 75px;
         height: 5vh;
         display: flex;
         align-items: center;
         justify-content: center;
         border-radius: 15px;
-        background-color: var(--main2);
-        color: var(--bg1);
+        background-color: var(--border2);
+        color: var(--border1);
         text-decoration: none;
+        font-weight: 500;
     }
     .hero {
         height: 60vh;
