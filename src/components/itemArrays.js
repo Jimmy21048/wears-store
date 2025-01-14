@@ -10,11 +10,36 @@ export const items = {
         { url : './images/test2.jpeg' },
         { url : './images/test2.jpeg' },
     ],
-    displays : [
-        { url : './images/display1.jpg' },
-        { url : './images/display2.jpg' },
-        { url : './images/display3.jpg' },
-        { url : './images/display4.jpg' },
-        { url : './images/display5.jpg' },
-    ]
+    ladyJeans : [
+        { url : './images/lj1.jpg' },
+        { url : './images/lj2.jpg' },
+        { url : './images/lj3.jpg' },
+        { url : './images/lj4.jpg' },
+        { url : './images/lj5.jpg' },
+        { url : './images/lj6.jpg' },
+        { url : './images/lj7.jpg' },
+    ],
+    varsity : [
+        { url : './images/v1.jpg' },
+        { url : './images/v2.jpg' },
+        { url : './images/v3.jpg' },
+        { url : './images/v4.jpg' },
+        { url : './images/v5.jpg' },
+        { url : './images/v6.jpg' },
+        { url : './images/v7.jpg' },
+    ],
+    puffer : [
+        { url : './images/pf1.jpg' },
+        { url : './images/pf2.jpg' },
+        { url : './images/pf3.jpg' },
+        { url : './images/pf4.jpg' },
+        { url : './images/pf5.jpg' },
+    ],
+    fleece : [
+        { url : './images/fl1.jpg' },
+        { url : './images/fl2.jpg' },
+        { url : './images/fl3.jpg' },
+        { url : './images/fl4.jpg' },
+        { url : './images/fl5.jpg' },
+    ],
 }

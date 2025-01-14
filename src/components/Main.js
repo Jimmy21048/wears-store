@@ -72,7 +72,7 @@ const Main = () => {
                     <div className="category-div">
                         <LoadingImage src={'./images/varsityLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
                         {
-                            items.jackets.map((jacket) => {
+                            items.varsity.map((jacket) => {
                                 return (
                                     <LoadingImage src={jacket.url} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
                                 )
@@ -83,7 +83,7 @@ const Main = () => {
                     <div className="category-div">
                         <LoadingImage src={'./images/pufferLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
                         {
-                            items.jackets.map((jacket) => {
+                            items.puffer.map((jacket) => {
                                 return (
                                     <LoadingImage src={jacket.url} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
                                 )
@@ -94,7 +94,7 @@ const Main = () => {
                     <div className="category-div">
                         <LoadingImage src={'./images/fleeceLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
                         {
-                            items.jackets.map((jacket) => {
+                            items.fleece.map((jacket) => {
                                 return (
                                     <LoadingImage src={jacket.url} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
                                 )
@@ -107,11 +107,11 @@ const Main = () => {
                 <h3>Trousers</h3>
                 <div className="items-div">
                     <div className="category-div">
-                        <LoadingImage src={'./images/ladyjeansLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                        <LoadingImage src={'./images/ladyjeansLogo.png'} alt={'lady jeans'} className={'item'} height={'200px'} width={'150px'}/>
                         {
-                            items.jackets.map((jacket) => {
+                            items.ladyJeans.map((item) => {
                                 return (
-                                    <LoadingImage src={jacket.url} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                                    <LoadingImage src={item.url} alt={'lady jeans'} className={'item'} height={'200px'} width={'150px'}/>
                                 )
                             })
                         }
