@@ -23,13 +23,13 @@ const Main = () => {
         dots[slideIndex-1].className += " active";
         
     }
-    setInterval(showSlides, 5000);
+    setInterval(showSlides, 10000);
     
     return (
         <div className="main">
             <header>
                 <div>
-                    <span><h2 className="itl title">M.J.N </h2><h4 className="itl motto title">Collections</h4></span>
+                    <span><h2 className="itl title">M.J </h2><h4 className="itl motto title">Collections</h4></span>
                     <p className="itl motto">Quality never goes out of style</p>
                 </div>
                 <img className="header-icon" src="./images/icon.jpg"  />
@@ -69,13 +69,38 @@ const Main = () => {
             <div id="jackets" className="type" >
                 <h3>Jackets</h3>
                 <div className="items-div">
-                {
-                    items.jackets.map((jacket) => {
-                        return (
-                            <LoadingImage src={jacket.url} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
-                        )
-                    })
-                }
+                    <div className="category-div">
+                        <LoadingImage src={'./images/varsityLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                        {
+                            items.jackets.map((jacket) => {
+                                return (
+                                    <LoadingImage src={jacket.url} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                                )
+                            })
+                        }
+                    </div>
+
+                    <div className="category-div">
+                        <LoadingImage src={'./images/pufferLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                        {
+                            items.jackets.map((jacket) => {
+                                return (
+                                    <LoadingImage src={jacket.url} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                                )
+                            })
+                        }
+                    </div>
+
+                    <div className="category-div">
+                        <LoadingImage src={'./images/fleeceLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                        {
+                            items.jackets.map((jacket) => {
+                                return (
+                                    <LoadingImage src={jacket.url} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                                )
+                            })
+                        }
+                    </div>
                 </div>
             </div>
             <div id="trousers" className="type" >
