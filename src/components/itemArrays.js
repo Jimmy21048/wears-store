@@ -42,4 +42,21 @@ export const items = {
         { url : './images/fl4.jpg' },
         { url : './images/fl5.jpg' },
     ],
+    maleJeans : [
+        { url : './images/mj1.jpg' },
+        { url : './images/mj2.jpg' },
+        { url : './images/mj3.jpg' },
+        { url : './images/mj4.jpg' },
+        { url : './images/mj5.jpg' },
+        { url : './images/mj6.jpg' },
+        { url : './images/mj7.jpg' },
+    ],
+    momJeans : [
+        { url : './images/mom1.jpg' },
+        { url : './images/mom2.jpg' },
+        { url : './images/mom3.jpg' },
+        { url : './images/mom4.jpg' },
+        { url : './images/mom5.jpg' },
+        { url : './images/mom6.jpg' },
+    ],
 }

@@ -67,8 +67,9 @@ const Main = () => {
                 </div>
             </div>
             <div id="jackets" className="type" >
-                <h3>Jackets</h3>
+                <h3 className="title-gray">Jackets</h3>
                 <div className="items-div">
+                    <h4 className="title2">Varsity jackets</h4>
                     <div className="category-div">
                         {/* <LoadingImage src={'./images/varsityLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/> */}
                         {
@@ -80,6 +81,12 @@ const Main = () => {
                         }
                     </div>
 
+
+
+
+                </div>
+                <div className="items-div">
+                    <h4 className="title2">Puffer jackets</h4>
                     <div className="category-div">
                         {/* <LoadingImage src={'./images/pufferLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/> */}
                         {
@@ -90,7 +97,9 @@ const Main = () => {
                             })
                         }
                     </div>
-
+                </div>
+                <div className="items-div">
+                    <h4 className="title2">Fleece jackets</h4>
                     <div className="category-div">
                         {/* <LoadingImage src={'./images/fleeceLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/> */}
                         {
@@ -104,36 +113,38 @@ const Main = () => {
                 </div>
             </div>
             <div id="trousers" className="type" >
-                <h3>Trousers</h3>
+                <h3 className="title-gray">Trousers</h3>
                 <div className="items-div">
+                    <h3 className="title2">Lady jeans</h3>
                     <div className="category-div">
-                        {/* <LoadingImage src={'./images/ladyjeansLogo.png'} alt={'lady jeans'} className={'item'} height={'200px'} width={'150px'}/> */}
                         {
-                            items.ladyJeans.map((item) => {
+                            items.ladyJeans.map((jean) => {
                                 return (
-                                    <LoadingImage src={item.url} alt={'lady jeans'} className={'item'} height={'200px'} width={'150px'}/>
+                                    <LoadingImage src={jean.url} alt={'lady jeans'} className={'item'} height={'200px'} width={'150px'}/>
                                 )
                             })
                         }
                     </div>
-
+                </div>
+                <div className="items-div">
+                    <h3 className="title2">Male jeans</h3>
                     <div className="category-div">
-                        {/* <LoadingImage src={'./images/menjeansLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/> */}
                         {
-                            items.jackets.map((jacket) => {
+                            items.maleJeans.map((jean) => {
                                 return (
-                                    <LoadingImage src={jacket.url} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                                    <LoadingImage src={jean.url} alt={'male jeans'} className={'item'} height={'200px'} width={'150px'}/>
                                 )
                             })
                         }
                     </div>
-
+                </div>
+                <div className="items-div">
+                    <h3 className="title2">Mom jeans</h3>  
                     <div className="category-div">
-                        {/* <LoadingImage src={'./images/momjeansLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/> */}
                         {
-                            items.jackets.map((jacket) => {
+                            items.momJeans.map((jean) => {
                                 return (
-                                    <LoadingImage src={jacket.url} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
+                                    <LoadingImage src={jean.url} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/>
                                 )
                             })
                         }
@@ -141,13 +152,13 @@ const Main = () => {
                 </div>
             </div>
             <div id="skirts" className="type" >
-                <h3>Skirts</h3>
+                <h3 className="title-gray">Skirts</h3>
             </div>
             <div id="shorts" className="type" >
-                <h3>Shorts</h3>
+                <h3 className="title-gray">Shorts</h3>
             </div>
             <div id="shirts" className="type" >
-                <h3>Shirts</h3>
+                <h3 className="title-gray">Shirts</h3>
             </div>
         </div>
     )
