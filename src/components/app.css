@@ -176,9 +176,15 @@ span {
     }
     .added {
         display: flex;
-        gap: 5px;
+        align-items: center;
+        gap: 8px;
         font-size: 1.05rem;
         font-weight: 600;
+    }
+    .added p {
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: var(--main);
     }
     .item-image {
         width: 330px;
@@ -264,6 +270,21 @@ span {
         height: 100px;
         border: none;
         object-fit: contain;
+    }
+    .fa-copy {
+        color: black;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .fa-check {
+        color: green;
+        font-size: 20px;
+    }
+    .misc {
+        text-align: center;
+    }
+    .last-section {
+        height: 15vh;
     }
     /* image slider */
     .slide {

@@ -41,7 +41,7 @@ const Main = () => {
                         <div className="text">Quality products</div>
                     </div>
                     <div className="slide fade">
-                        <LoadingImage src={"./images/display2.jpg"} className={'hero-img'} alt={'display item'} height={'55vh'} width={'350px'} />
+                        <LoadingImage src={"./images/fnl2.jpg"} className={'hero-img'} alt={'display item'} height={'55vh'} width={'350px'} />
                         <div className="text">Affordable prices</div>
                     </div>
                     <div className="slide fade">
@@ -49,7 +49,7 @@ const Main = () => {
                         <div className="text">Best customer experience</div>
                     </div>
                     <div className="slide fade">
-                        <LoadingImage src={"./images/display1.jpg"} className={'hero-img'} alt={'display item'} height={'55vh'} width={'350px'} />
+                        <LoadingImage src={"./images/mj7.jpg"} className={'hero-img'} alt={'display item'} height={'55vh'} width={'350px'} />
                         <div className="text">A variety of products</div>
                     </div>
                     <div className="slide fade">
@@ -104,7 +104,6 @@ const Main = () => {
                 <div className="items-div">
                     <h4 className="title2">Fleece jackets</h4>
                     <div className="category-div">
-                        {/* <LoadingImage src={'./images/fleeceLogo.png'} alt={'jackets'} className={'item'} height={'200px'} width={'150px'}/> */}
                         {
                             items.fleece.map((jacket, index) => {
                                 return (
@@ -169,7 +168,6 @@ const Main = () => {
             <div id="skirts" className="type" >
                 <h3 className="title-gray">Skirts</h3>
                 <div className="items-div">
-                    {/* <h3 className="title2">Mom jeans</h3>   */}
                     <div className="category-div">
                         {
                             items.skirts.map((item, index) => {
@@ -184,9 +182,6 @@ const Main = () => {
                     </div>
                 </div>
             </div>
-            {/* <div id="shorts" className="type" >
-                <h3 className="title-gray">Shorts</h3>
-            </div> */}
             <div id="shirts" className="type" >
                 <h3 className="title-gray">Shirts</h3>
                 <div className="items-div">
@@ -212,7 +207,7 @@ const Main = () => {
                     })
                 }
             </div>
-            <div className=" stories">
+            <div className="type stories">
                 <h3 className="title-gray" >User stories</h3>
                 <div className="story-container">
                     <img className="story-image" alt="user story" src="./images/user7.jpg" />
@@ -228,6 +223,11 @@ const Main = () => {
                         })
                     }
                 </div>
+            </div>
+            <div className="type last-section">
+                <p className="itl title-gray misc">John Msaani collections</p>
+                <p className="itl title-gray misc">rubiajimmy softwares</p>
+                <p className="itl title-gray misc">@2024 copyright</p>
             </div>
         </div>
     )
