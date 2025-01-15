@@ -63,5 +63,13 @@ export const items = {
         { url : './images/fnl5.jpg', type: 'Flannel' },
         { url : './images/fnl6.jpg', type: 'Flannel' },
         { url : './images/fnl7.jpg', type: 'Flannel' },
+    ],
+    users : [
+        { url : './images/user2.jpg', type: 'user story' },
+        { url : './images/user3.jpg', type: 'user story' },
+        { url : './images/user4.jpg', type: 'user story' },
+        { url : './images/user5.jpg', type: 'user story' },
+        { url : './images/user6.jpg', type: 'user story' },
+
     ]
 }

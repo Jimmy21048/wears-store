@@ -1,4 +1,3 @@
-// import { useRef } from "react";
 import Tabs from "./Tabs";
 import LoadingImage from "./Image";
 import { items } from "./itemArrays";
@@ -30,7 +29,7 @@ const Main = () => {
         
     }
     setInterval(showSlides, 10000);
-    
+
     return (
         <div className="main">
             <Header />
@@ -213,8 +212,22 @@ const Main = () => {
                     })
                 }
             </div>
-            <div className="type">
+            <div className=" stories">
                 <h3 className="title-gray" >User stories</h3>
+                <div className="story-container">
+                    <img className="story-image" alt="user story" src="./images/user7.jpg" />
+                    <div className="user-story">
+                        "Come get quality products 
+                        at the best prices in the market"
+                    </div>
+                </div>
+                <div className="story-slider ">
+                    {
+                        items.users.map((user) => {
+                            return <img className="story-image slider1" src={user.url} alt={user.type} />
+                        })
+                    }
+                </div>
             </div>
         </div>
     )
