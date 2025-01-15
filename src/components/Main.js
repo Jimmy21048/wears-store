@@ -205,13 +205,16 @@ const Main = () => {
                     </div>
                 </div>
             </div>
-            <div className="type">
-            <h3 className="title-gray">Q & A</h3>
+            <div className=" qa-type">
+                <h3 className="title-gray">Q & A</h3>
                 {
                     qas.map((qa, index) => {
                         return <Qa key={index} q={qa.q} a={qa.a} />
                     })
                 }
+            </div>
+            <div className="type">
+                <h3 className="title-gray" >User stories</h3>
             </div>
         </div>
     )

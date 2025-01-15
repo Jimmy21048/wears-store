@@ -35,7 +35,6 @@ span {
         /* display: flex;
         flex-direction: column;
         align-items: center; */
-        margin-bottom: 5vh;
     }
     header {
         height: 10vh;
@@ -114,7 +113,7 @@ span {
     .type {
         height: max-content;
         padding-left: 10px;
-        padding-top: 8vh;
+        padding-top: 3vh;
     }
     .items-div {
         height: max-content;
@@ -216,6 +215,12 @@ span {
     }
     .answer-hidden {
         display: none;
+    }
+    .qa-type {
+        min-height: 30vh;
+        height: max-content;
+        padding-left: 10px;
+        padding-top: 20px;
     }
     /* image slider */
     .slide {
