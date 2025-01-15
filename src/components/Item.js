@@ -8,7 +8,7 @@ export default function Item() {
     const id = useParams().id;
     const type = items[field][id].type;
     const img = items[field][id].url.slice(1,)
-    console.log(img)
+    
     return (
         <div className="item-page">
             <Header />

@@ -4,6 +4,8 @@ import LoadingImage from "./Image";
 import { items } from "./itemArrays";
 import { Link } from "react-router-dom";
 import Header from "./Header";
+import Qa from "./Qa";
+import { qas } from "./qaArray";
 const Main = () => {
     let slideIndex=0;
     let i;
@@ -202,6 +204,14 @@ const Main = () => {
                         }
                     </div>
                 </div>
+            </div>
+            <div className="type">
+            <h3 className="title-gray">Q & A</h3>
+                {
+                    qas.map((qa, index) => {
+                        return <Qa key={index} q={qa.q} a={qa.a} />
+                    })
+                }
             </div>
         </div>
     )

@@ -35,6 +35,7 @@ span {
         /* display: flex;
         flex-direction: column;
         align-items: center; */
+        margin-bottom: 5vh;
     }
     header {
         height: 10vh;
@@ -186,6 +187,35 @@ span {
         max-width: 95vw;
         object-fit: cover;
         border-radius: 10px;
+    }
+    .qa {
+        padding-right: 10px;
+        height: max-content;
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 10px
+    }
+    .question {
+        border: 1px solid;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 5vh;
+        height: max-content;
+        width: 100%;
+        padding: 0 5px;
+        margin-bottom: 5px;
+    }
+    .answer {
+        padding: 8px;
+        height: max-content;
+        background-color: var(--bg2);
+    }
+    .answer-hidden {
+        display: none;
     }
     /* image slider */
     .slide {
