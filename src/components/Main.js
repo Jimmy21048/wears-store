@@ -167,12 +167,41 @@ const Main = () => {
             </div>
             <div id="skirts" className="type" >
                 <h3 className="title-gray">Skirts</h3>
+                <div className="items-div">
+                    {/* <h3 className="title2">Mom jeans</h3>   */}
+                    <div className="category-div">
+                        {
+                            items.skirts.map((item, index) => {
+                                return (
+                                    <Link key={index} to={`/item/skirts/${index}`}>
+                                        <LoadingImage src={item.url} alt={'skirts'} className={'item'} height={'200px'} width={'150px'}/>
+                                    </Link>
+                                    
+                                )
+                            })
+                        }
+                    </div>
+                </div>
             </div>
-            <div id="shorts" className="type" >
+            {/* <div id="shorts" className="type" >
                 <h3 className="title-gray">Shorts</h3>
-            </div>
+            </div> */}
             <div id="shirts" className="type" >
                 <h3 className="title-gray">Shirts</h3>
+                <div className="items-div">
+                    <div className="category-div">
+                        {
+                            items.shirts.map((item, index) => {
+                                return (
+                                    <Link key={index} to={`/item/shirts/${index}`}>
+                                        <LoadingImage src={item.url} alt={'shirts'} className={'item'} height={'200px'} width={'150px'}/>
+                                    </Link>
+                                    
+                                )
+                            })
+                        }
+                    </div>
+                </div>
             </div>
         </div>
     )
